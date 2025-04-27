@@ -1,0 +1,53 @@
+body {
+    background-color: floralwhite;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.btn-container {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+#scissors, #rock, #paper {
+    padding: 23px;
+    border-radius: 25%;
+    margin: 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+h2, h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+.choices-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+
+}
+.results-container {
+    text-align: center;
+}
+
+#reset {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.5em;
+	border-radius: 25%;
+	cursor: pointer;
+  background:
+  linear-gradient(217deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%),
+  linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+  linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+  font-weight: 900;
+  font-size: 36px;
+  box-shadow: 3px 3px red,-4em o o.8em olive;
+}
+#reset:hover {
+	background: lime;
+	color: floralwhite;
+}

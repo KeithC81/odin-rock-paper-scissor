@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Odins, Rock, Paper, Scissors</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+	<div class="choices-container">
+
+		<div>
+			<h2>Computer Choice: <span id="computer-choice"></span></h2>
+		</div>
+
+		<div>
+			<h2>User Choice: <span id="user-choice"></span></h2>
+		</div>
+
+	</div>
+
+	<div class="results-container">
+
+		<div>
+			<h2>Results: <span id="results"></span></h2>
+		</div>
+		
+		<button id="reset" style="display: none;">Reset Game</button>
+		
+		<div>
+			<h3 style="color: green;">Total Wins: <span id="total-wins"></span></h3>
+		</div>
+
+		<div>
+			<h3 style="color: red;">Total Losses: <span id="total-losses"></span></h3>
+		</div>
+
+	</div>
+
+	<div class="btn-container">
+
+		<button id="rock">Rock</button>
+		<button id="paper">Paper</button>
+		<button id="scissors">Scissors</button>
+		<h4>(Make a Choice)</h4>
+
+	</div>
+
+	<script src="./script.js" async defer></script>
+</body>
+
+</html>

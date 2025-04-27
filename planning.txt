@@ -1,0 +1,106 @@
+# **Algorithm Planning Template**
+
+
+
+**Problem Statement:
+
+
+(Describe the problem you are solving in a few sentences.)**
+	 Meed a function that generates a random number for the computer which has the value 
+	 assigned to them as  rock,  paper and scissors.
+	 With another function that allows a user to pick either rock, paper, or scissors.
+	
+
+ 	 a function that takes the user and computer choices and displays the results to the screen.
+
+	 loop the previous functions until a player reaches 5 wins to complete the game
+
+	
+
+
+**Inputs:
+
+
+(List the data the function will receive as input.)**
+
+
+
+
+
+**Outputs:
+
+
+(Describe what the function should return or display.)**
+
+	Return user and computer choices to screen, with win lose or draw and keep track
+	of the score until a player wins five rounds. Return a win or lose message
+
+
+
+
+               **Steps to Solve:**
+
+								**(Step 1 - Explain what needs to happen first)**
+
+									store a computer choice variable with a random number. 1 = rock 2 = paper, 3 = sciccors
+											
+
+												
+
+
+								**(Step 2 - Next logical step in the process)**
+
+									store a user choice variable with the same with rock = 1, paper = 2 and scissors as 3.
+
+
+
+
+								**(Step 3)**
+
+									Get results from comparing the user choice and computer choice
+
+
+
+
+								**(step 4)**
+
+									return the results to the display with you win or you lose
+
+
+								**(step 5)**
+
+									if user results is equal to win, display wins total + 1,
+
+
+							    **(step 6)**
+
+									if user results is equal to draw, continue on
+
+								**(step 7)**
+
+									if computer results = win, display losses +1
+
+								
+								**(step 8)**
+
+									Loop unitl either score is equal to 5, return win or lose message
+
+								**(Continue listing steps logically until the process is complete)**
+
+
+
+
+
+**Edge Cases to Consider**
+
+
+
+(List possible scenarios where the function may not behave as expected and how to handle them.)**:
+
+
+
+**Potential Optimizations:
+
+
+
+(Any ways to make the algorithm more efficient, if applicable.)**
